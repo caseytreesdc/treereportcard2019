@@ -1,0 +1,29 @@
+.radial-meter {
+    height: 200px;
+    width: 200px;
+    border: solid #bada55 2px;
+  }
+
+  .dial {
+    stroke: rgb(216, 216, 216);
+    stroke-width: 60px;
+    fill: transparent;
+  }
+
+  .progress {
+    fill: transparent;
+    stroke: rgb(46, 180, 121);
+    stroke-width: 50px;
+    stroke-linecap: round;
+    stroke-dasharray: 1256.68;
+    stroke-dashoffset: 138.5;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+    animation: circumference 2s linear forwards;
+  }
+
+  @keyframes circumference {
+    from {
+      stroke-dashoffset: 1220;
+    }
+  }
