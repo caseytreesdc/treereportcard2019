@@ -36,9 +36,10 @@
         <a href="https://caseytrees.org/" target="_blank">
             <img class="logo mx-auto" src="img/logo_5.png" alt="caseytrees.logo">
         </a>
-        <div class="d-flex h-100 text-center align-items-center conainer">
+        <h1 class="d-flex h-100 text-center align-items-center container">Tree Report Card 2019</h1>
+        <!-- <div class="d-flex h-100 text-center align-items-center conainer">
             <img class="title mx-auto" src="img/TRC-Title.svg">
-        </div>
+        </div> -->
     </header>
     <div class="navigation">
         <ul>
@@ -125,7 +126,7 @@
         <div id="navspotlight"></div>
         <section id="spotlight">
             <section id="spotlight-header">
-                <h1 class="wow fadeIn">Spotlight: Empowering Future Generations Through Trees</h1>
+                <h1><span class="wow fadeIn">Spotlight: </span>Empower<span class="wow fadeIn">ing Future Generations Through Trees</span></h1>
             </section>
 
             <section class="container">
@@ -343,7 +344,7 @@
                     <p style="font-weight:400; color: #5dbe83; text-transform: uppercase; letter-spacing: 1px; padding-bottom:1em;">Tree Protection</p>
                     <div class="row">
                         <article class="col-md-4 align-self-end">
-                            <img class="mx-auto metric-grade" style="opacity:1;" src="img/protection-grade.svg" />
+                            <img class="mx-auto metric-grade animate-test" style="opacity:1;" src="img/protection-grade.svg" />
                             <p style="text-align:left;">Unlike the tree coverage, health and planting metrics, the Tree Protection metric evaluates the 
                                 success of tree law in protecting trees. The grade for tree protection is measured by averaging the score of submetrics.
                             </p>
@@ -471,6 +472,53 @@
         <div id="navappendix"></div>
         <section class="container" id="appendix">
             <article class="wow fadeIn">
+                <script>
+                    console.log(document);
+                    var radial = document.getElementsByClassName("radial-meter");
+                    console.log(radial);
+                    var bounding = radial.getBoundingClientRect();
+                    console.log(bounding);
+                  </script>
+                  
+                  <style>
+                    .radial-meter {
+                      height: 200px;
+                      width: 200px;
+                      border: solid #bada55 2px;
+                    }
+                  
+                    .dial {
+                      stroke: rgb(216, 216, 216);
+                      stroke-width: 6px;
+                      fill: transparent;
+                    }
+                  
+                    .progress {
+                      fill: transparent;
+                      stroke: rgb(46, 180, 121);
+                      stroke-width: 5px;
+                      stroke-linecap: round;
+                      stroke-dasharray: 125.668;
+                      stroke-dashoffset: 13.85;
+                      transform-origin: 50% 50%;
+                      transform: rotate(-90deg);
+                      animation: circumference 1s linear forwards;
+                    }
+                  
+                    @keyframes circumference {
+                      from {
+                        stroke-dashoffset: 122;
+                      }
+                    }
+                  </style>
+                  <h3>Refresh for animation!</h3>
+                  <div class="radial-meter">
+                    <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                      <circle class="dial" cx="25" cy="25" r="20" />
+                      <circle class="progress" cx="25" cy="25" r="20" />
+                    </svg>
+                  </div>
+                  
                 <p style="font-weight:400; color: #5dbe83; text-transform: uppercase; letter-spacing: 1px; padding-bottom:1em; font-size:1.2em;">Appendix: Calculations Defined</p>
                 &nbsp;
                 <p>
