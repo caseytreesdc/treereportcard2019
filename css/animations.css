@@ -1,42 +1,56 @@
-.radial-meter {
-    height: 200px;
-    width: 200px;
-    border: solid #bada55 2px;
-  }
+.dial {
+  stroke: rgb(216, 216, 216);
+  stroke-width: 60px;
+  fill: transparent;
+}
 
-  .dial {
-    stroke: rgb(216, 216, 216);
-    stroke-width: 60px;
-    fill: transparent;
-  }
+.progress {
+  fill: transparent;
+  stroke: rgb(46, 180, 121);
+  stroke-width: 50px;
+  stroke-linecap: round;
+  stroke-dasharray: 1256.68;
+  stroke-dashoffset: 1220;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+}
 
-  .progress {
-    fill: transparent;
-    stroke: rgb(46, 180, 121);
-    stroke-width: 50px;
-    stroke-linecap: round;
-    stroke-dasharray: 1256.68;
-    stroke-dashoffset: 1220;
-    transform-origin: 50% 50%;
-    transform: rotate(-90deg);
-  }
+.animate-95 {
+  animation: circumference-95 2s linear forwards;
+}
 
-  .animate-95 {
-    animation: circumference-95 2s linear forwards;
-  }
+.animate-80 {
+  animation: circumference-80 2s linear forwards;
+}
 
-  .animate-80 {
-    animation: circumference-80 2s linear forwards;
-  }
+.animate-90 {
+  animation: circumference-90 2s linear forwards;
+}
 
-  @keyframes circumference-95 {
-    100% {
-      stroke-dashoffset: 138.5;
-    }
-  }
+.animate-100 {
+  animation: circumference-100 2s linear forwards;
+}
 
-  @keyframes circumference-80 {
-    100% {
-      stroke-dashoffset: 251.34;
-    }
+@keyframes circumference-95 {
+  100% {
+    stroke-dashoffset: 138.5;
   }
+}
+
+@keyframes circumference-80 {
+  100% {
+    stroke-dashoffset: 251.34;
+  }
+}
+
+@keyframes circumference-90 {
+  100% {
+    stroke-dashoffset: 120.67;
+  }
+}
+
+@keyframes circumference-100 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
