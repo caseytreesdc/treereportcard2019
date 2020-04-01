@@ -21,15 +21,22 @@
     transform: rotate(-90deg);
   }
 
-  .animate {
-    animation: circumference 2s linear forwards;
+  .animate-95 {
+    animation: circumference-95 2s linear forwards;
   }
 
-  @keyframes circumference {
-    0% {
-      stroke-dashoffset: 1220;
-    }
+  .animate-80 {
+    animation: circumference-80 2s linear forwards;
+  }
+
+  @keyframes circumference-95 {
     100% {
       stroke-dashoffset: 138.5;
+    }
+  }
+
+  @keyframes circumference-80 {
+    100% {
+      stroke-dashoffset: 251.34;
     }
   }
