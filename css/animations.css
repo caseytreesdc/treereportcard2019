@@ -16,14 +16,20 @@
     stroke-width: 50px;
     stroke-linecap: round;
     stroke-dasharray: 1256.68;
-    stroke-dashoffset: 138.5;
+    stroke-dashoffset: 1220;
     transform-origin: 50% 50%;
     transform: rotate(-90deg);
+  }
+
+  .animate {
     animation: circumference 2s linear forwards;
   }
 
   @keyframes circumference {
-    from {
+    0% {
       stroke-dashoffset: 1220;
+    }
+    100% {
+      stroke-dashoffset: 138.5;
     }
   }
