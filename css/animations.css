@@ -16,7 +16,7 @@
 }
 
 .animate-95 {
-  animation: circumference-95 2s linear forwards;
+  animation: circumference-95 2.3s linear forwards;
 }
 
 .animate-80 {
@@ -28,7 +28,7 @@
 }
 
 .animate-100 {
-  animation: circumference-100 2s linear forwards;
+  animation: circumference-100 2.5s linear forwards;
 }
 
 @keyframes circumference-95 {
