@@ -54,3 +54,65 @@
     stroke-dashoffset: 0;
   }
 }
+
+.map-box {
+  margin: auto;
+  background: url(../img/TreeCanopy_Impervious.png);
+  background-size: contain;
+}
+
+.space-transparent {
+  position: absolute;
+  height: 80vh;
+  z-index: 1;
+  opacity: 0;
+  animation: fade-in-1 20s infinite;
+}
+
+.space {
+  height: 80vh;
+  z-index: 2;
+  opacity: 0;
+  animation: fade-in-2 20s infinite;
+}
+
+@keyframes fade-in-1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-in-2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
