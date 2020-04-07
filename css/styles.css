@@ -157,7 +157,7 @@ section.gradient {
 }
 
 #summary-header{
-  background-image: url('../img/DSC04340.jpg');
+  background-image: url('../img/Summary.jpg');
   background-attachment: fixed;
   background-size:cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ section.gradient {
 }
 
 #spotlight-header{
-  background-image: url("../img/trc18-spotlight.jpg");
+  background-image: url("../img/Spotlight.png");
   background-attachment: fixed;
   background-size:cover;
   background-repeat: no-repeat;
