@@ -4,5 +4,8 @@
 
 .animated-map-container {
     display: flex;
+}
 
+.map-key {
+    height: 600px
 }
