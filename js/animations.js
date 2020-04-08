@@ -1,11 +1,11 @@
-var progress_95_a = document.getElementsByClassName("progress")[0];
-var progress_80_a = document.getElementsByClassName("progress")[1];
-var progress_100_a = document.getElementsByClassName("progress")[2];
-var progress_90_a = document.getElementsByClassName("progress")[3];
-var progress_95_b = document.getElementsByClassName("progress")[4];
-var progress_80_b = document.getElementsByClassName("progress")[5];
-var progress_100_b = document.getElementsByClassName("progress")[6];
-var progress_90_b = document.getElementsByClassName("progress")[7];
+let progress_95_a = document.getElementsByClassName("progress")[0];
+let progress_80_a = document.getElementsByClassName("progress")[1];
+let progress_100_a = document.getElementsByClassName("progress")[2];
+let progress_90_a = document.getElementsByClassName("progress")[3];
+let progress_95_b = document.getElementsByClassName("progress")[4];
+let progress_80_b = document.getElementsByClassName("progress")[5];
+let progress_100_b = document.getElementsByClassName("progress")[6];
+let progress_90_b = document.getElementsByClassName("progress")[7];
 
 document.addEventListener("scroll", function() {
 
