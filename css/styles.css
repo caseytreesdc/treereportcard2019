@@ -106,7 +106,7 @@ header {
 header.clearfix.mainheader {
   height: 96vh;
   background-attachment: fixed;
-  background-image: url('https://caseytrees.org/wp-content/uploads/2019/01/DSC4753.jpg');
+  background-image: url('../img/main-header.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
