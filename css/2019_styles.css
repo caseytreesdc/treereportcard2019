@@ -1,12 +1,40 @@
+.metric-photo {
+    border-radius: 5%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.radial-graph {
+    height: 200px;
+    width: 200px;
+}
+
+.calculations-explained {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5dbe83;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.calculations-explained__sub {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: normal;
+  text-align: right;
+  margin: 0 auto;
+}
 .engage-heading {
-    color: rgb(0,171,114);
-    font-size: 30px;
+  color: rgb(0, 171, 114);
+  font-size: 30px;
 }
 
 .animated-map-container {
-    display: flex;
+  display: flex;
 }
 
 .map-key {
-    height: 600px;
+  height: 600px;
 }

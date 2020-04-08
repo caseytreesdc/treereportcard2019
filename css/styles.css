@@ -200,12 +200,6 @@ section.gradient {
   padding-bottom: 3em;
 }
 
-.metric-photo {
-  border-radius:13px;
-  background-size:cover;
-  background-position: center;
-}
-
 .metric-grade {
   width: 90%;
 }
