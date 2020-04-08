@@ -5,19 +5,24 @@
     object-position: bottom;
 }
 
+
 .graph-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.graph-value, .graph-value__vertical {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: #006836;
 }
 
 .graph-value {
-    font-family: Lato, Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 400;
-    color: #006836;
+  text-align: center;
 }
 
 .radial-graph {
@@ -25,8 +30,7 @@
     width: 200px;
 }
 
-.calculations-explained {
-  text-align: right;
+.calculations-explained, .calculations-explained__vertical {
   font-size: 16px;
   font-weight: 600;
   color: #5dbe83;
@@ -34,12 +38,45 @@
   margin-bottom: 0;
 }
 
-.calculations-explained__sub {
+.calculations-explained__sub, .calculations-explained__sub__vertical {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: normal;
-  text-align: right;
   margin: 0 auto;
+}
+
+.calculations-explained {
+  text-align: right;
+}
+
+.calculations-explained__vertical {
+  text-align: left;
+}
+
+.metric-photo__vertical {
+  border-radius: 2em;
+}
+
+.graph-value__vertical {
+  text-align: left;
+}
+
+.graph-container__vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.radial-graph__vertical {
+  height: 300px;
+  width: 300px;
+}
+
+.calculations-explained__sub {
+  text-align: right;
+}
+
+.calculations-explained__sub__vertical {
+  text-align: left;  
 }
 .engage-heading {
   color: rgb(0, 171, 114);
