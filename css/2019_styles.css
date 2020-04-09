@@ -91,19 +91,25 @@
   height: 600px;
 }
 
+/* SVG Grading Scale Styles */
+
+svg {
+  background: royalblue;
+}
 .year,
 .grade {
-  font-family: Lato, Arial, Helvetica, sans-serif;
-  font-size: 8px;
+font-family: Lato, Arial, Helvetica, sans-serif;
+font-size: 8px;
+
 }
 
 .year {
-  font-weight: 300;
+font-weight:300;
 }
 .current__grade,
 .current__year {
-  fill: rgb(99, 168, 118);
+fill: rgb(99, 168, 118);
 }
 .current__grade {
-  font-weight: bold;
+font-weight: bold;
 }
