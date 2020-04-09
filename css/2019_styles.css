@@ -1,28 +1,28 @@
 .metric-photo {
-    border-radius: 5%;
-    height: 300px;
-    object-fit: cover;
-    object-position: bottom;
+  border-radius: 5%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .graph-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .graph-value {
-    font-family: Lato, Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 400;
-    color: #006836;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 400;
+  color: #006836;
 }
 
 .radial-graph {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 .calculations-explained {
@@ -52,4 +52,21 @@
 
 .map-key {
   height: 600px;
+}
+
+.year,
+.grade {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+
+.year {
+  font-weight: 300;
+}
+.current__grade,
+.current__year {
+  fill: rgb(99, 168, 118);
+}
+.current__grade {
+  font-weight: bold;
 }
