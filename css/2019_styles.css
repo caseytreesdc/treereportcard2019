@@ -8,15 +8,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.park-key {
-  display: flex;
-  font-weight: 600;
-}
-.green-dot {
-  width: 50px;
-  height: 50px;
-  background-color: rgb(43,101,58);
-}
 
 .metric-photo {
   border-radius: 5%;
