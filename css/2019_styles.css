@@ -1,3 +1,8 @@
+.text-highlight {
+  font-weight: 700;
+  background: linear-gradient(to top, rgb(220,234,208) 50%, transparent 50%);
+}
+
 .metric-photo {
   border-radius: 5%;
   height: 300px;
